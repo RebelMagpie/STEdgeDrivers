@@ -1,0 +1,16 @@
+# https://developer.smartthings.com/docs/devices/device-profiles#categories
+name: "waterValve-v1"
+components:
+  - id: main
+    label: Water valve
+    capabilities:
+      - id: valve
+        version: 1
+      - id: refresh
+        version: 1
+    categories:
+      - name: WaterValve
+metadata:
+  deviceType: waterValve
+  ocfDeviceType: oic.d.watervalve
+  deviceTypeId: waterValve

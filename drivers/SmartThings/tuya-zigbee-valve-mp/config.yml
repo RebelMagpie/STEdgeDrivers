@@ -1,0 +1,5 @@
+name: 'Tuya Zigbee Valve'
+packageKey: 'tuya-zigbee-valve'
+description: "This driver is intended to work with Tuya water valve that uses 0xEF00 cluster"
+permissions:
+  zigbee: {}
